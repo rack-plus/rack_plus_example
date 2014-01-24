@@ -1,0 +1,41 @@
+GIT
+  remote: git://github.com/rack-plus/rack_plus-app.git
+  revision: 2a5e748618d2434b1e671ac624956f5f360d169a
+  specs:
+    rack_plus-app (0.1.0)
+
+GIT
+  remote: git://github.com/rack-plus/rack_plus-controller.git
+  revision: 2edbbb1633fbc7b6797cdbf025ea1eccc57339b4
+  specs:
+    rack_plus-controller (0.1.0)
+
+GIT
+  remote: git://github.com/rack-plus/rack_plus-router.git
+  revision: fe4ed3ce0e6bb5634e9c0c784a33a6777f9b2f89
+  specs:
+    rack_plus-router (0.1.0)
+
+GIT
+  remote: git://github.com/rack-plus/rack_plus.git
+  revision: 64100aa4377f8c912ea3c02ec73987b8e314fc13
+  specs:
+    rack_plus (0.1.0)
+      rack_plus-app
+      rack_plus-controller
+      rack_plus-router
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.5.2)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  rack
+  rack_plus!
+  rack_plus-app!
+  rack_plus-controller!
+  rack_plus-router!
